@@ -1,0 +1,19 @@
+﻿__Voice:__ -> only on Windows. Check: *os
+    ** *play (youtube link) ** - Adds a song to the play queue and the bot will join your voice channel.
+    ** *skip ** - Skips the current song and plays the next song in the queue/leaves the channel.
+    ** *stop ** - Clears the queue and disconnects the bot from your voice channel.
+
+__Misc:__
+    ** *poll [description] ** - Reacts with 👍 👎 🤷 to your message. A quick way to make a poll in the chat.
+    ** *say (text) ** - Deletes your message and replies with the (text) from your message.
+
+__Fun:__
+    ** *wikihow ** - Posts a link to a random wikihow article.
+    ** *cat ** - Posts a random cat picture.
+    ** *rps-game ** - Just a __very__ basic rock, paper, scissors game.
+
+__Owner only:__
+    ** *setgame [game] ** - Sets the playing status to the given argument. Owner only.
+    ** *defaultgame ** - Sets the playing status to default. Owner only.
+    ** *setstatus (online|idle|dnd) ** - Sets the bot status. Owner only.
+    ** *botrs ** - Restarts the bot. Owner only.

@@ -1,0 +1,20 @@
+{
+  "name": "beepbot",
+  "version": "1.5",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "HerrEurobeat",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "fs": "0.0.1-security",
+    "opusscript": "0.0.4",
+    "superagent": "^3.8.2",
+    "ytdl-core": "^0.18.1"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "description": ""
+}

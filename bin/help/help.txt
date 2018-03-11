@@ -1,0 +1,24 @@
+﻿Prefix **--->** * **<---** Just wonderful.
+( ) - **needed** argument
+[ ] - ***optional*** argument
+
+__Help & Test:__
+    ** *help ** - Brings up some help. You are reading it just in this moment. Wow.
+    ** *invite ** - Replies with the bot invite-link and server invite-link.
+    ** *ping ** - Replies the ping of the bot at the moment.
+    ** *os ** - Detects the OS the bot is currently running on. Replies with "Windows" or "Linux".
+    ** *privilegeerror ** - Explains the "Privilege is too low." error and how you can fix it.
+
+__Moderation:__
+    ** *kick (user) [reason] ** - Kicks the mentioned user. Only works with kick or admin permission.
+    ** *ban (user) [reason] ** - Bans the mentioned user. Only works with ban or admin permission.
+    ** *clear (amount) ** - Deletes the amount of messages (1-100) in the channel. Only works with manage-messages or admin permission.
+    ** *mute (user) ** - Mutes a user in voice channels. Only works with mute-members permission.
+    ** *unmute (user) ** - Unmutes a user in voice channels. Only works with mute-members permission.
+
+__Info & User:__
+    ** *info [user] ** - Some (useful) information about the bot, the user and the server.
+    ** *avatar [mention] ** - A link to your or to the mentioned users avatar.
+    ** *servericon ** - A link to the server icon of your current server.
+    ** *nick [mention] (nick) ** - Changes your nick/of the mentioned user. Only works with manage-nicknames or admin permission.
+    ** *nickreset [mention] ** - Resets your nick/the nick of the mentioned user. Only works with manage-nicknames or admin permission.
