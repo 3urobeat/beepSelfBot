@@ -7,12 +7,15 @@ module.exports.run = async (bot, message, args) => {
     } else {
         var game = args.slice(1).join(" ")
         var gametype = args[0].toUpperCase()
+        if (gametype != "PLAYING" | "STREAMING" | "LISTENING" | "WATCHING") {
+            v.editmsg(message, "Wrong argument. Use `playing|streaming|listening|watching`", 2500)
+            return;
+        }
     }
 
-    v.bot.user.setPresence({ game: { name: game, type: gametype, url: "https://www.twitch.tv/discordapp" } });;
-    message.delete().catch(err => {
-        console.log("Error: " + err)
-    });
+    v.bot.user.setPresence({ game: { name: game, type: gametype, url: "https://www.twitch.tv/discordapp" } });
+    await v.editmsg(message, "Your game has been set to: " + gametype + " " + game, 2500)
+    await message.react(v.successemoji)
 
     }
 

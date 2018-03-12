@@ -1,0 +1,2 @@
+Version 1.0: Initial commit.
+Version 1.1: Added a README.md! Added self deleting message function! Added error catch to /achievement command. Added a /status command with config interaction. Edited /setgame command. Added /ping command. Added /reload command. Added /github command; you can put text behind the command that will appear before the link. Added /botrs and /botstop command.

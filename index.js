@@ -1,5 +1,5 @@
 ﻿console.log(" ")
-function d() { return new Date(); }
+var d = function d() { return new Date(); }
 var bootstart = d()
 console.log("Loading...")
 
@@ -9,6 +9,7 @@ const Discord = require("discord.js");
 const superagent = require("superagent");
 const config = require(configpath);
 const os = require("os");
+var exec = require('child_process').exec, child;
 var fs = require("fs");
 
 const helppath = "./bin/help/help.txt";
@@ -25,11 +26,13 @@ const tokenpath = require("../token.json")
 const PREFIX = "/";
 
 var randomstring = arr => arr[Math.floor(Math.random() * arr.length)];
-const randomhex = function randomhex() { return Math.floor(Math.random() * 16777214) + 1 }
-const round = function round(value, decimals) { return Number(Math.round(value+'e'+decimals)+'e-'+decimals); }
+var randomhex = function randomhex() { return Math.floor(Math.random() * 16777214) + 1 }
+var round = function round(value, decimals) { return Number(Math.round(value+'e'+decimals)+'e-'+decimals); }
+var editmsg = function error(message, sendmsg, delay) { message.edit(sendmsg); bot.setTimeout(() => { message.delete() }, delay) }
 
 const LOGINFO = "[INFO] ";
 const LOGWARN = "[WARN] ";
+const successemoji = "✅"
 
 function botstartupmode() {
     try {
@@ -51,7 +54,11 @@ function botstartupmode() {
 bot.on("ready", async function() {
     console.log(" ")
     console.log("*---------------------*")
-    console.log("Started beepSelfBot for " + bot.user.tag + ".")
+    console.log("Started beepSelfBot for " + bot.user.tag + " (" + config.status + ").")
+    bot.user.setStatus(config.status).catch(err => {
+        console.log("Error setting status from config. " + err)
+    })
+
     if (os.platform == "linux") console.log("I'm running on Linux...") 
     if (os.platform == "win32") console.log("I'm running on Windows...")
     console.log("Time: " + d())
@@ -106,6 +113,8 @@ bot.on("message", async function(message) {
 });
 
 module.exports = {
+    d,
+    Discord,
     bot,
     helppath,
     helppath2,
@@ -113,10 +122,13 @@ module.exports = {
     PREFIX,
     config,
     os,
+    exec,
     fs,
     randomstring,
     randomhex,
-    round
+    round,
+    editmsg,
+    successemoji
 }
 
 botstartupmode();

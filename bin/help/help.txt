@@ -11,8 +11,9 @@ __Moderation:__
 __Info & User:__
     ** *invite ** - Replies with server invite-link.
     ** *info ["bot|user|server"] [mention] ** - Some (useful) information about the bot, the user or/and the server. If you dont provide the infotype you will get the full info.
+    ** *status ("online|idle|dnd|invisble") ** - Sets the status.
     ** *userid [mention] ** - Gets the user id from you or the mentioned user.
     ** *avatar [mention] ** - A link to your or to the mentioned users avatar.
     ** *servericon ** - A link to the server icon of your current server.
-    ** *setavatar (url)/("default|x-mas|testbot") ** - Sets the avatar to the given url or to default/x-mas/testbot default.
+    ** *setavatar (url) ** - Sets the avatar to the given url or to default/x-mas/testbot default.
     ** *setgame ["playing|streaming|listening|watching"] [name] ** - Sets a custom game activity. If no argument is given the game will be reset.
