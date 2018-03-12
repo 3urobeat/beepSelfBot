@@ -1,8 +1,9 @@
-# beepSelfBot
-**WARNING!** It is against the ToS of Discord to use a selfbot! **Your account can get banned!** 
+<div align="center">
+	<h1 align="center">~ beepSelfBot ~</h1>
+	<strong>beepSelfBot is a small selfbot that wanted to be illegal since it was a kid.</strong><br />Now it is.<br /><br />
+</div>
 
-beepSelfBot is a small selfbot that wanted to be illegal since it was a kid.
-Now it is.
+**WARNING!** It is against the ToS of Discord to use a selfbot! **Your account can get banned!** 
 
 If you are planning to use it, keep this in mind:
 > USING SELFBOTS IS [AGAINST THE DISCORD TERMS OF SERVICE](https://discordapp.com/developers/docs/topics/oauth2). I AM NOT RESPONSIBLE AND CANNOT BE HELD LIABLE IF YOU LOSE PRIVILEGES, GET KICKED OR BANNED FROM ANY SERVER OR FROM DISCORD.

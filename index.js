@@ -29,6 +29,8 @@ var randomstring = arr => arr[Math.floor(Math.random() * arr.length)];
 var randomhex = function randomhex() { return Math.floor(Math.random() * 16777214) + 1 }
 var round = function round(value, decimals) { return Number(Math.round(value+'e'+decimals)+'e-'+decimals); }
 var editmsg = function error(message, sendmsg, delay) { message.edit(sendmsg); bot.setTimeout(() => { message.delete() }, delay) }
+var usermissperm = function usermissperm() { return randomstring(["You do not have enough permission to do this.","Argh, you can't do this.","Sorry but no. The owner of this server does not want to let you do this.","You are not allowed to do this.","Blame the server owner!"]) + " (Perm-Error)" }
+var dmerror = function dmerror() { return randomstring(["That cannot work in a dm. :face_palm::skin-tone-2:","That won't work in a DM...","This command in a DM? No.","Sorry but no. Try it on a server.","You need to be on a server!"]) + " (DM-Error)" }
 
 const LOGINFO = "[INFO] ";
 const LOGWARN = "[WARN] ";
@@ -128,6 +130,8 @@ module.exports = {
     randomhex,
     round,
     editmsg,
+    usermissperm,
+    dmerror,
     successemoji
 }
 

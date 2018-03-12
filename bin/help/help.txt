@@ -9,7 +9,7 @@ __Help & Test:__
 __Moderation:__
 
 __Info & User:__
-    ** *invite ** - Replies with server invite-link.
+(    ** *invite ** - Replies with server invite-link.)
     ** *info ["bot|user|server"] [mention] ** - Some (useful) information about the bot, the user or/and the server. If you dont provide the infotype you will get the full info.
     ** *status ("online|idle|dnd|invisble") ** - Sets the status.
     ** *userid [mention] ** - Gets the user id from you or the mentioned user.
