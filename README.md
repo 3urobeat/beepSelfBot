@@ -16,6 +16,9 @@ If you know the risk and you want to continue; here are the instructions.
 Only necessary if you want to download via command prompt:
 - `git` command line ([Windows](https://git-scm.com/download/win)|[Linux](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)|[MacOS](https://git-scm.com/download/mac)) installed
 
+You cannot use the /update command because it uses local pathes on my Linux machine and requires Apache Subversion.
+Some commands will not work if you are not using `pm2` to start the bot.
+
 ## Downloading
 
 Just hit the `Clone or download` button or use git in a command prompt:
