@@ -9,7 +9,7 @@ if (os.platform == "linux") {
     exec('rm -rf /home/pi/Desktop/beepSelfBot/bin')
     exec('rm -rf /home/pi/Desktop/beepSelfBot/index.js')
     exec('svn checkout https://github.com/HerrEurobeat/beepSelfBot/trunk/bin /home/pi/Desktop/beepSelfBot/bin')
-    exec('svn checkout https://github.com/HerrEurobeat/beepSelfBot/trunk/index.js /home/pi/Desktop/beepSelfBot/index.js')
+    exec('svn export https://github.com/HerrEurobeat/beepSelfBot/trunk/index.js /home/pi/Desktop/beepSelfBot/index.js')
     bot.setTimeout(() => {
         exec('pm2 restart selfbot')
         console.log("Restarting selfbot...")
