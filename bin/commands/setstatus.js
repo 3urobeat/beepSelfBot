@@ -15,6 +15,7 @@ module.exports.run = async (bot, message, args) => {
     }
 
     if (status === "off") var status = "invisible";
+    if (status === "on") var status = "online"
 
     v.bot.user.setStatus(status).catch(err => {
         v.editmsg(message, "Error: " + err, 2500)

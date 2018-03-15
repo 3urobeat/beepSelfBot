@@ -10,7 +10,7 @@ __Moderation:__
 
 __Info & User:__
     ** *info ["bot|user|server"] [mention] ** - Some (useful) information about the bot, the user or/and the server. If you dont provide the infotype you will get the full info.
-    ** *status ("online|idle|dnd|invisble/off") ** - Sets the status.
+    ** *status ("online/on|idle|dnd|invisble/off") ** - Sets the status.
     ** *userid [mention] ** - Gets the user id from you or the mentioned user.
     ** *avatar [mention] ** - A link to your or to the mentioned users avatar.
     ** *servericon ** - A link to the server icon of your current server.
