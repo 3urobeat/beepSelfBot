@@ -1,9 +1,9 @@
 ﻿__Fun:__
-    ** *achievement (description) ** - Sends a minecraft achievement with your description.
+    ** /achievement (description) ** - Sends a minecraft achievement with your description.
 
 __Bot:__
-    ** *eval (code) ** - Runs eval code.
-    ** *reload (module) ** - Reloads the cache of an given module.
-    ** *update ** - Updates downloader.js and starts downloader.js.
-    ** *botrs ** - Restarts the bot.
-    ** *botstop ** - Stops the bot when running on Linux.
+    ** /eval (code) ** - Runs eval code.
+    ** /reload (module) ** - Reloads the cache of an given module.
+    ** /update ** - Updates downloader.js and starts downloader.js.
+    ** /botrs ** - Restarts the bot.
+    ** /botstop ** - Stops the bot when running on Linux.

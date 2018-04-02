@@ -3,16 +3,16 @@
 [ ] - ***optional*** argument
 
 __Help & Test:__
-    ** *help ** - Brings up some help. You are reading it just in this moment. Wow.
-    ** *ping ** - Bot heartbeat and ping.
+    ** /help ** - Brings up some help. You are reading it just in this moment. Wow.
+    ** /ping ** - Bot heartbeat and ping.
 
 __Moderation:__
 
 __Info & User:__
-    ** *info ["bot|user|server"] [mention] ** - Some (useful) information about the bot, the user or/and the server. If you dont provide the infotype you will get the full info.
-    ** *status ("online/on|idle|dnd|invisble/off") ** - Sets the status.
-    ** *userid [mention] ** - Gets the user id from you or the mentioned user.
-    ** *avatar [mention] ** - A link to your or to the mentioned users avatar.
-    ** *servericon ** - A link to the server icon of your current server.
-    ** *setavatar (url) ** - Sets the avatar to the given url or to default.
-    ** *setgame ["playing|streaming|listening|watching"] [name] ** - Sets a custom game activity. If no argument is given the game will be reset.
+    ** /info ["bot|user|server"] [mention] ** - Some (useful) information about the bot, the user or/and the server. If you dont provide the infotype you will get the full info.
+    ** /status ("online/on|idle|dnd|invisble/off") ** - Sets the status.
+    ** /userid [mention] ** - Gets the user id from you or the mentioned user.
+    ** /avatar [mention] ** - A link to your or to the mentioned users avatar.
+    ** /servericon ** - A link to the server icon of your current server.
+    ** /setavatar (url) ** - Sets the avatar to the given url or to default.
+    ** /setgame ["playing|streaming|listening|watching"] [name] ** - Sets a custom game activity. If no argument is given the game will be reset.

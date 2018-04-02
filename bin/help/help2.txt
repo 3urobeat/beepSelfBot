@@ -1,4 +1,4 @@
 ﻿__Misc:__
-    ** *poll [description] ** - Reacts with 👍 👎 🤷 to your message. A quick way to make a poll in the chat.
-    ** *dice (number) ** - Returns with a random number between 1 and the given number.
-    ** *github ** - Get a link to my GitHub repository.
+    ** /poll [description] ** - Reacts with 👍 👎 🤷 to your message. A quick way to make a poll in the chat.
+    ** /dice (number) ** - Returns with a random number between 1 and the given number.
+    ** /github ** - Get a link to my GitHub repository.

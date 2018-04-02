@@ -88,12 +88,14 @@ bot.on("ready", async function() {
 
 bot.on("message", async function(message) {
 
-    if (message.channel.type !== "dm") {
-        if (message.guild.id === "231828052127121408" || "232550371191554051") {
-            if (message.mentions.members.size > 0) {
-                if (message.mentions.members.get(bot.user.id) != undefined) {
-                    message.react(message.guild.emojis.find("name","notification"))
-                }}}}
+    if (message.author.id !== bot.user.id) {
+        if (!message.author.bot) {
+            if (message.channel.type !== "dm") {
+                if (message.guild.id === "231828052127121408" || "232550371191554051") {
+                    if (message.mentions.members.size > 0) {
+                        if (message.mentions.members.get(bot.user.id) != undefined) {
+                            message.react(message.guild.emojis.find("name","notification"))
+                        }}}}}}
 
     if(message.author !== bot.user) return;
     if (!message.content.startsWith(PREFIX)) return;
