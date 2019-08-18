@@ -46,5 +46,7 @@ Once finished:
 
 ## Starting the selfbot
 
+Open a command prompt or power shell in the folder and type `npm install`. Let it install the dependencies.  
+
 To start the selfbot, in the command prompt, run the following command:
 `node index.js`
