@@ -3,6 +3,8 @@
 	<strong>beepSelfBot is a small selfbot that wanted to be illegal since it was a kid.</strong><br />Now it is.<br /><br />
 </div>
 
+**If you want, you can donate a few bucks on my [Patreon](https://www.patreon.com/3urobeat)! I would really appreciate it!**
+
 **WARNING!** It is against the ToS of Discord to use a selfbot! **Your account can get banned!** 
 
 If you are planning to use it, keep this in mind:
